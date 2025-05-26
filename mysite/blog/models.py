@@ -2,10 +2,10 @@ from django.conf import settings
 from django.db import models
 from django.utils import timezone
 
-class Post(models.Model):
+class voetbalspelers(models.Model):
     author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
-    title = models.CharField(max_length=200)
-    text = models.TextField()
+    Naam = models.CharField(max_length=200)
+    Actuele_club = models.TextField()
     created_date = models.DateTimeField(default=timezone.now)
     published_date = models.DateTimeField(blank=True, null=True)
 
@@ -15,3 +15,4 @@ class Post(models.Model):
 
     def __str__(self):
        return self.title
+   
