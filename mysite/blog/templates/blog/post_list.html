@@ -13,9 +13,12 @@
         <title></title>
     </head>
     <body>
-        <header></header>
+    
         {% block content %}
         {% for post in posts %}
+        <header>
+            <h1>Mijn website</h1>
+        </header>
         <article class="post">
             <time class="date">
                 {{ post.published_date }}
@@ -23,8 +26,8 @@
             <h2><a href="">{{ post.title }}</a></h2>
             <p>{{ post.text | linebreaksbr }}</p>
         </article>
+        <footer></footer>
         {% endfor %}
         {% endblock %}
-        <footer></footer>
     </body>
 </html>
