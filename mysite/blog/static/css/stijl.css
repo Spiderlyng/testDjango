@@ -1,20 +1,29 @@
 body{
-    background-color: red;
+    background-color: darkred;
     color: black;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
     background-color: orange;
     height: 150px;
+    top: 0;
+    margin: 0;
 }
 
 footer{
     background-color: orange;
     height: 100px;
+    margin-top: auto;
+    
 }
 
 h1{
-    color: black;
+    margin: 0;
+    position: absolute;
+    top: 60px;
+    left: 40px;
 }
 
 h2{
@@ -23,7 +32,8 @@ h2{
 
 article{
     width: 500px;
-    background-color: salmon;
-    margin-bottom: 40px;
+    background-color: pink;
+    display: inline-block;
+    margin-top: 40px;
     border: 3px solid white;
 }
