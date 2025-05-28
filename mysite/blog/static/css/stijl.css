@@ -17,6 +17,10 @@ h1{
     color: black;
 }
 
+h2{
+    color: orange;
+}
+
 article{
     width: 500px;
     background-color: salmon;
