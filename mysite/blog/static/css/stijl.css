@@ -1,6 +1,16 @@
 body{
-    background-color: orange;
+    background-color: red;
     color: black;
+}
+
+header{
+    background-color: orange;
+    height: 100px;
+}
+
+footer{
+    background-color: orange;
+    height: 100px;
 }
 
 h1{
@@ -9,6 +19,7 @@ h1{
 
 article{
     width: 500px;
+    background-color: salmon;
     margin-bottom: 40px;
-    border: 3px solid red;
+    border: 3px solid white;
 }
