@@ -1,4 +1,7 @@
 body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     background-color: darkred;
     color: black;
     margin: 0;
@@ -16,7 +19,6 @@ footer{
     background-color: orange;
     height: 100px;
     margin-top: auto;
-    
 }
 
 h1{
@@ -26,14 +28,15 @@ h1{
     left: 40px;
 }
 
-h2{
+h2 a {
     color: orange;
 }
 
 article{
     width: 500px;
-    background-color: red;
-    display: grid;
-    margin-top: 40px;
+    background-color: pink;
+    align-self: end;
+    margin: 40px;
+    margin-right: 20%;
     border: 3px solid white;
 }
