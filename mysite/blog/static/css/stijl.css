@@ -34,8 +34,8 @@ h2 a {
 
 article{
     width: 500px;
-    background-color: pink;
-    align-self: end;
+    background-color: white;
+    align-self: flex-end;
     margin: 40px;
     margin-right: 20%;
     border: 3px solid white;
