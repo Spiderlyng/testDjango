@@ -28,7 +28,7 @@ h1{
     left: 40px;
 }
 
-h2 a {
+h2, a {
     color: orange;
 }
 
