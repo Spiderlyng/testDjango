@@ -32,10 +32,15 @@ h2 a {
     color: orange;
 }
 
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
 article{
     width: 500px;
-    background-color: white;
-    align-self: flex-end;
+    background-color: pink;
     margin: 40px;
     margin-right: 20%;
     border: 3px solid white;
