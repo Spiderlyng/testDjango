@@ -1,5 +1,5 @@
 {% extends 'blog/base.html' %}
-{% block inhoud%}
+{% block inhoud %}
 <h2>Nieuw bericht</h2>
 <form method="POST" class="post-form">{% csrf_token %}
     {{ form.as_p }}

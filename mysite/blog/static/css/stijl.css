@@ -49,3 +49,11 @@ article{
     margin-right: 20%;
     border: 3px solid white;
 }
+
+form{
+    width: 500px;
+    background-color: pink;
+    margin: 40px;
+    margin-right: 20%;
+    border: 3px solid white;
+}
